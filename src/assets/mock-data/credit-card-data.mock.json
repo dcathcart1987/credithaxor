@@ -1,0 +1,31 @@
+{
+  "userId": 1,
+  "activeCards": [
+    {
+      "issuer": "Visa",
+      "issuerLogoClass": "fa-cc-visa",
+      "approvalDate": "10/1/2017",
+      "firstSpendDate": "10/17/2017",
+      "requiredSpend": 2000.0,
+      "requiredSpendCurrency": "USD",
+      "remainingSpend": 0.0,
+      "terms": "",
+      "metrics": [
+        { "type": "value", "title": "Currency Value", "description": "Strictly currency value of card offer.", "value": 800.0 }
+      ]
+    },
+    {
+      "issuer": "Mastercard",
+      "issuerLogoClass": "fa-cc-mastercard",
+      "approvalDate": "2/1/2018",
+      "firstSpendDate": "2/20/2018",
+      "requiredSpend": 3000.0,
+      "requiredSpendCurrency": "USD",
+      "remainingSpend": 0.0,
+      "terms": "",
+      "metrics": [
+        { "type": "value", "title": "Currency Value", "description": "Strictly currency value of card offer.", "value": 100.0 }
+      ]
+    }
+  ]
+}

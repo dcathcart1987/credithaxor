@@ -1,0 +1,32 @@
+<div class="row login-component-topspace"></div>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 component-content-background-transparent">
+    <div class="login-component-pad-div-bottom">
+      <h3 class="align-items-center">Welcome to the Credit Haxzor.</h3>
+      <h6>Please login to your account.</h6>
+    </div>
+    <form>
+      <div class="form-group">
+        <span class="ui-float-label">
+          <input id="float-username" type="text" size="30" pInputText>
+          <label for="float-username">Username</label>
+        </span>
+      </div>
+      <div class="form-group">
+        <span class="ui-float-label">
+          <input id="float-pw" type="password" size="30" pInputText>
+          <label for="float-pw">Password</label>
+        </span>
+        <button type="button" class="btn btn-link btn-sm login-component-button-no-pad-left login-component-button-small-pad-top">Forgot Password?</button>
+      </div>
+      <button pButton type="button" label="Submit" (click)="submitUserForm()"></button>
+      <div class="login-component-text-pad-top">
+        <p>
+          Don't have an account but would like to <span><a href="#" class="btn-link">Create One</a></span>?
+        </p>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-4"></div>
+</div>

@@ -1,0 +1,19 @@
+.login-component-topspace {
+  margin-top:10%;
+}
+
+.login-component-button-no-pad-left {
+  padding-left: 0;
+}
+
+.login-component-button-small-pad-top {
+  padding-top: .1em;
+}
+.login-component-text-pad-top {
+  padding-top: 1.5em;
+}
+
+.login-component-pad-div-bottom {
+  padding-bottom: 1em;
+}
+

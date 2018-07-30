@@ -1,0 +1,26 @@
+<div>
+  <p-table [value]="cards">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Issue By</th>
+        <th>Approval</th>
+        <th>First Spend</th>
+        <th>Required Spend</th>
+        <th>Remaining to Spend</th>
+        <th>Terms</th>
+        <th>Overall Value Metrics</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-card>
+      <tr>
+        <td><i class="fa {{card.issuerLogoClass}}"></i>&nbsp;{{card.issuer}}</td>
+        <td>{{card.approvalDate | date}}</td>
+        <td>{{card.firstSpendDate | date}}</td>
+        <td>{{card.requiredSpend | currency:"USD"}}</td>
+        <td>{{card.remainingSpend | currency:"USD"}}</td>
+        <td>{{card.terms}}</td>
+        <td></td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
